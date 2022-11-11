@@ -1,6 +1,6 @@
-# ODataTutorial
+# Swagger Bug with duplicate controller name
 
-OData Tutorial
+This repo is created to demonstrate a bug reported to Swagger.
 
 ## LICENSE
 

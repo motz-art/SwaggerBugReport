@@ -8,3 +8,11 @@ public class Note
     [Required]
     public string MessageNote { get; set; } = default!;
 }
+
+public static class Notes
+{
+    public static IReadOnlyList<Note> Items = new List<Note>
+    {
+        new Note {Id = Guid.NewGuid(), MessageNote = "Test"}
+    };
+}
